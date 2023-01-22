@@ -1,0 +1,49 @@
+<p>accepted-cibil works!</p>
+
+
+<table class="zigzag" border="1">
+    <thead>
+        <tr>
+            <th>Customer ID</th>
+            <th>FIRST NAME</th>
+            <th>LAST NAME</th>
+            <th>AGE</th>
+            <th>E-MAIL</th>
+            <th>MOBILE NO.</th>
+            <th>PAN CARD NO.</th>
+            <th> ANNUAL INC</th>
+            <th>CIBIL</th>
+            <!-- <th>Enquiry Status</th> -->
+
+
+            <th>Generated CIBIL Score</th>
+            <th>Fill Form</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr *ngFor="let e of enqData ">
+            <td>{{e.customerId}}</td>
+            <td>{{e.customerFirstName}}</td>
+            <td>{{e.customerLastName}}</td>
+            <td>{{e.customerDateOfBirth}}</td>
+            <td>{{e.customerEmail}}</td>
+            <td>{{e.customerMobileNumber}}</td>
+            <td>{{e.customerPanCard}}</td>
+            <td>{{e.annualIncome}}</td>
+            <td>{{e.enquiryStatus}}</td>
+            <td>{{e.cibilScore}}</td>
+            <td> <button (click)="goToLoanForm(e)"> Loan Form Fill </button></td>
+
+<<<<<<< Updated upstream
+            <!-- //routerLink="/role/relationexecutive/loanform" -->
+=======
+<!-- routerLink="/role/relationexecutive/loanform" -->
+>>>>>>> Stashed changes
+        </tr>
+
+    </tbody>
+
+</table>

@@ -1,0 +1,98 @@
+.panel {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.panelon {
+    width: 25%;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    background-color: rgb(48, 63, 159);
+    float: left;
+}
+
+.panelonn {
+    width: 25%;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    background-color: rgb(34, 45, 119);
+    float: left;
+}
+
+.big {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 9px;
+    text-align: center;
+    color: white;
+}
+
+.smalltext {
+    font-size: 15px;
+    // font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+// SHOW SOME CONTAIN CSS
+// .hi-com{
+//     padding-top: 20px;
+// }
+h1 {
+    color: #0082af;
+    padding: 5px 2px 10px 2px;
+    // padding-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid #33d4a5;
+}
+
+img {
+    padding-left: 0;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 30px 2px 30px 2px;
+    text-align: center;
+    background: url("../../../assets/pictures/header/underline\ 2.png") no-repeat bottom center;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 0 5px 0 5px;
+}
+
+.row {
+    margin: 0;
+}
+
+[_nghost-hky-c158] {
+    z-index: 0;
+}
+
+[_nghost-hky-c158] .carousel-counter[_ngcontent-hky-c158] {
+    z-index: 0;
+}
+
+[_nghost-hky-c158] .carousel-cells .carousel-cell .carousel-play {
+    z-index: 0;
+}
+
+[_nghost-hky-c158] .carousel-arrow[_ngcontent-hky-c158] {
+    z-index: 0;
+}
+
+[_nghost-hky-c158] .carousel-dots[_ngcontent-hky-c158] {
+    z-index: 0;
+}
+
+carousel {
+    z-index: 0;
+}
